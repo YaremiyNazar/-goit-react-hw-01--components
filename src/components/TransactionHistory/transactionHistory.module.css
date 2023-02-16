@@ -1,0 +1,36 @@
+.transaction__history {
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.head {
+  padding: 10px 0;
+  color: white;
+  font-size: 14px;
+
+  background-color: #3b8ba5;
+  text-transform: uppercase;
+  padding: 20px;
+}
+.th {
+  padding: 20px;
+  min-width: 160px;
+}
+.item {
+  padding: 10px;
+  text-align: center;
+  border-right: 1px solid rgb(242, 224, 191);
+  border-bottom: 1px solid orange;
+  color: gray;
+}
+.item__name {
+  text-transform: capitalize;
+  padding: 10px;
+  text-align: center;
+  border-right: 1px solid rgb(242, 224, 191);
+  border-bottom: 1px solid orange;
+  color: gray;
+}
